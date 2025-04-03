@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #15263d;
+    width=12px;
+    text-wrap: 1;
+}
+
+.navigationbar {
+    background: white;
+    z-index: 100;
+}
+
+.navlist a {
+    color: #15263d;
+    text-decoration: none;
+    transition: 0.5s;
+    /* border-style: solid;
+    border-color: white;
+    border-width: 0px 0px 0px 3px; */
+    margin: 10px;
+    /* margin: 10px auto; */
+
+}
+
+
+.navlist a.homeactive {
+    color:none;
+}
+#eduactive {
+    color: rgb(8, 165, 8);
+}
+
+.ug_title {
+    color: #15263d;
+    /* position: absolute; */
+}
+
+.ugimg {
+    margin-top: 15px;
+    width: 20vw;
+    /* border:2px solid green; */
+    align-items: center;
+}
+
+.edusec {
+    margin-top:100px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.educlass {
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    padding:10px;
+    align-items: center;
+    margin-top:70px;
+    margin-left: 50px;
+    margin-right:50px;
+    /* border: 2px solid white; */
+    color:#15263d;
+}
+
+.stats {
+    list-style-type: none;
+    margin-left:10px;
+}
+
+.writteninfo {
+    /* position: relative; */
+    display: inline-block;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: 2px solid brown; */
+    line-height: 30px;
+
+}
+
+hr {
+    border: 3px solid black;
+}
+
+.degree {
+    margin-bottom: 30px;
+}
